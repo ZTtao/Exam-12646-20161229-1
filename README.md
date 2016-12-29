@@ -1,5 +1,6 @@
-#maven构建命令：
+#maven编译命令：
 mvn compile
+#maven运行命令：
 mvn exec:java -Dexec.mainClass="pers.zhentao.SpringAndMybatisConsole.controller.APP"
 #数据库配置文件：
 dbconfig.properties
