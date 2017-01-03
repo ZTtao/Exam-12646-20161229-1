@@ -43,7 +43,7 @@
 	   <property name="title" value="添加Film信息"/>
 	</bean>
     <!-- 装配option列表 -->
-	<bean id="getOptions" class="pers.zhentao.SpringAndMybatisConsole.controller.GetOptions">
+	<bean id="getOptions" class="pers.zhentao.SpringAndMybatisConsole.pojo.GetOptions">
 	   <property name="list">
 	       <list>
 	           <ref bean="addFilm"/>
